@@ -15,9 +15,6 @@
           <a class="weibo share-sns" href="javascript:;" data-type="weibo">
             <i class="icon icon-weibo"></i>
           </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
           <a class="qq share-sns" href="javascript:;" data-type="qq">
             <i class="icon icon-qq"></i>
           </a>
@@ -42,12 +39,6 @@
   </div>
 </div>
 
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="<%- 'qrcode' in locals ? qrcode(sUrl) : 'https://s.jiathis.com/qrcode.php?url=' + sUrl  %>" alt="微信分享二维码">
-    </div>
-</div>
+
 
 <div class="mask js-mask"></div>
