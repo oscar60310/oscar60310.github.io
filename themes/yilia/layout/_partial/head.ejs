@@ -40,4 +40,7 @@
   </style>
   <%- partial('google-analytics') %>
   <%- partial('baidu-analytics') %>
+  <% if (config.googleSite){ %>
+    <meta name="google-site-verification" content="<%- config.googleSite %>" />
+  <% } %>
 </head>

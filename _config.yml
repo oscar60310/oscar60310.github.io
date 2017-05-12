@@ -64,8 +64,26 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: yilia
-
+googleSite: G3cNZSI0X0BO9nHxSRDFysMfO8wre8FE6689Q1ppwpI
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
